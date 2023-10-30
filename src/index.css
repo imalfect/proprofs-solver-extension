@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.window {
+    width: 400px;
+    height: fit-content;
+}
+@layer base {
+    html {
+        @apply font-sans;
+    }
+}
+body {
+    text-align: center;
+}
+.radix-themes {
+    --default-font-family: 'SF Pro Rounded', sans-serif !important;
+}
+@font-face {
+    font-family: 'SF Pro Rounded';
+    src: url('./assets/fonts/SF-Pro-Rounded-Thin.ttf') format('truetype');
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'SF Pro Rounded';
+    src: url('./assets/fonts/SF-Pro-Rounded-Light.ttf') format('truetype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'SF Pro Rounded';
+    src: url('./assets/fonts/SF-Pro-Rounded-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'SF Pro Rounded';
+    src: url('./assets/fonts/SF-Pro-Rounded-Medium.ttf') format('truetype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'SF Pro Rounded';
+    src: url('./assets/fonts/SF-Pro-Rounded-Semibold.ttf') format('truetype');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'SF Pro Rounded';
+    src: url('./assets/fonts/SF-Pro-Rounded-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'SF Pro Rounded';
+    src: url('./assets/fonts/SF-Pro-Rounded-Heavy.ttf') format('truetype');
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'SF Pro Rounded';
+    src: url('./assets/fonts/SF-Pro-Rounded-Black.ttf') format('truetype');
+    font-weight: 900;
+}
+

@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "ProProfs AI Hack",
+  "version": "1.0.0",
+  "action": { "default_popup": "index.html" },
+  "permissions": ["scripting", "tabs", "storage"],
+  "content_scripts": [
+    {
+      "js": ["src/content.jsx"],
+      "matches": ["https://www.proprofs.com/*"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["injected.html"],
+      "matches": ["https://*.proprofs.com/*"]
+    }
+  ],
+  "host_permissions": ["https://*/*"]
+}
